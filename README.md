@@ -13,7 +13,7 @@
 
 ## Quickstart
 
-### 1. Get a free Groq API key (30 seconds)
+### 1. Get a free Groq API key 
 1. Go to https://console.groq.com
 2. Sign up / log in
 3. Click **API Keys** → **Create API Key**
