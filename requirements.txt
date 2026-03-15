@@ -1,0 +1,33 @@
+# ── LLM (Groq — free API) ─────────────────────────────────────────────────────
+groq>=0.9.0
+
+# ── Embeddings (local, free) ──────────────────────────────────────────────────
+sentence-transformers>=2.7.0
+torch>=2.0.0               # required by sentence-transformers (CPU version is fine)
+
+# ── Document loading ──────────────────────────────────────────────────────────
+pypdf>=4.2.0
+requests>=2.31.0
+
+# ── Vector store ──────────────────────────────────────────────────────────────
+chromadb>=0.5.0
+
+# ── Hybrid search ─────────────────────────────────────────────────────────────
+rank-bm25>=0.2.2
+
+# ── Reranking (bonus, local) ──────────────────────────────────────────────────
+# Uses sentence-transformers CrossEncoder — already installed above
+
+# ── Evaluation & data ─────────────────────────────────────────────────────────
+numpy>=1.26.0
+pandas>=2.2.0
+scikit-learn>=1.4.0
+
+# ── Visualisation (notebook) ──────────────────────────────────────────────────
+matplotlib>=3.8.0
+seaborn>=0.13.0
+
+# ── Utilities ─────────────────────────────────────────────────────────────────
+python-dotenv>=1.0.0
+tqdm>=4.66.0
+tiktoken>=0.7.0
